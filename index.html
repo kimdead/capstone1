@@ -32,7 +32,7 @@
  
       }
      
-      .text-1 {
+      .heroContent {
   display: flex;
   position:absolute ;
   top: 20%;
@@ -43,13 +43,13 @@ h1 span {
     color: #F07905;
 }
 
-.herobanner .text-1 h1 {
+.herobanner .heroContent h1 {
     letter-spacing: -2px;
   font-size: 80px;
   line-height: 82px
 }
 
-.herobanner .text-1 .subtitle {
+.herobanner .heroContent .subtitle {
     margin-top: 25px;
     width: 550px;
   font-size: 22px;
@@ -127,6 +127,9 @@ h1 span {
   <body>
     <div class="herobanner">
     <div class="container">
+
+      <!-- nav bar -->
+      
       <nav
         id="main_menu"
         class="navbar navbar-expand-md navbar-light bg-light fixed-top"
@@ -156,19 +159,22 @@ h1 span {
         </div>
       </nav>
       
-      <!-- Text Center  -->
-      <div class="text-1">
+      <!-- hero content  -->
+      <div class="heroContent">
           <div class="col">
               <h1 class="fw-bold heroText">
                 Ensuring a <span>happy</span> <br> and <span>healthy</span> life for <br> your <span> furry</span> friends
                 </h1>
           <p class="subtitle">"Nurturing the bond between you and your beloved pets through comprehensive care guidlines, informative articles and community support."</p>
+
+          <!-- hero buttons -->
           <div class="herobtn d-flex">
           <a href="./sign_up.html" class="btn-main fw-semibold me-3
           ">book an appointment</a>
           <a href="./sign_up.html" class="btn-2nd fw-semibold
           ">Join now</a></div>
 
+          <!-- customer and ratings -->
           <div class="custorate d-flex">
           <div class="customers mt-4">
             <img class="pic1" src="./assets/pexels-andrea-piacquadio-774909.jpg" alt="" >
