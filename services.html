@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./style.css">
+    
+    <title>Shop | Services</title>
+
+    <style>
+       
+        .service .form-check {
+            width: 400px;
+        }
+
+        .form-check-label {
+            justify-content: space-between;
+        }
+        
+
+        .flex {
+            justify-content: space-between;
+            width: 250px;
+        }
+
+        .form-check-input:checked {
+            background-color: #f07905;
+            border-color: #f07905;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- nav bar -->
+      
+      <nav
+      id="main_menu"
+      class="navbar navbar-expand-md navbar-light bg-light fixed-top"
+    >
+      <div class="container">
+        <a href="index.html" class="navbar-brand">
+          <img src="" alt="Petmalu logo" width="" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainMenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="mainMenu" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li><a href="./index.html" class="nav-link">Home</a></li>
+            <li><a href="./about.html" class="nav-link">About</a></li>
+            <li><a href="./contact.html" class="nav-link">Contact Us</a></li>
+            <li><a href="./contact.html" class="nav-link">Services</a></li>
+            <li><a href="#contact" class="nav-link">Sign In</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </div>
+
+    <div class="container mt-5 pt-5 mb-5 pb-5">
+        <h2 class="WhyUs">Pet Grooming Services</h2>
+    <p class="WhyUs-sub">We Provide Trusty Care Service</p>
+    </div>
+
+
+
+<section class="form container mt-5 d-flex">
+
+
+    <!-- Pet Size -->
+<div class="petSize">
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Small">
+        <label class="form-check-label" for="Small">
+            <div class="flex d-flex">
+         <p class="Psize">Small</p> <p class="kg">(10kg below)</p>
+        </div>
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Medium" checked>
+        <label class="form-check-label" for="Medium">
+            <div class="flex d-flex">
+                <p class="Psize">Medium</p> <p class="kg">(11-30kg below)</p>
+               </div>
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Large">
+        <label class="form-check-label" for="Large">
+            <div class="flex d-flex">
+                <p class="Psize">Large</p> <p class="kg">(31-40kg below)</p>
+               </div>
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Extra Large" checked>
+        <label class="form-check-label" for="Extra Large">
+            <div class="flex d-flex">
+                <p class="Psize">Extra Large</p> <p class="kg">(41kg above)</p>
+               </div>
+        </label>
+      </div>
+    </div>
+    <!-- Service -->
+<div class="service ms-5">
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label d-flex" for="flexCheckDefault">
+         <p> haircut / Shave</p> <p>{$price}</p>
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label d-flex" for="flexCheckChecked">
+         <p> Bath (Shampoo, dry, brush)</p><p>{$price}</p>
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label d-flex" for="flexCheckDefault">
+         <p> Trim Nails / Claws</p><p>{$price}</p>
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label d-flex" for="flexCheckDefault">
+        <p>  Flea and Tick Bath</p><p>{$price}</p>
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label d-flex" for="flexCheckDefault">
+         <p> Clean Ears</p><p>{$price}</p>
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label d-flex" for="flexCheckDefault">
+        <p>  Brush Teeth</p><p>{$price}</p>
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label d-flex" for="flexCheckDefault">
+         <p> Anal Gland (expression)</p><p>{$price}</p>
+        </label>
+      </div>
+    </div>
+    
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="imgfooter"><img src="./assets/dog footer.png" alt=""></div>
+        <div class="text-foot text-center" id="text-foot">
+          <h3>Pawsitively Unleashing Happiness!</h3><br>
+          <a class="btn-btm fw-bold" href="#">SIGN UP</a>
+         </div>
+      
+        <section
+            class="bg-dark text-light p-5 text-center text-sm-start">
+      
+            <div class="container">
+      
+              
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="./images/logo2.1.png" alt="Petmalu Logo" width="180px" />
+                    <div class="social">
+                      <a href="#"><i class="bi bi-facebook fs-3 m-2"></i></i></a>
+                      <a href="#"><i class="bi bi-twitter fs-3 m-2"></i></i></a>
+                      <a href="#"><i class="bi bi-youtube fs-3 m-2"></i></a>
+                      <a href="#"><i class="bi bi-linkedin fs-3 m-2"></i></a>
+                      <a href="#"><i class="bi bi-instagram fs-3 m-2"></i></a>
+                    </div>
+                    
+                  </div>
+                  <div class="col-md-3" id="footlist">
+                    <h4 class="mb-4">Shop Schedule</h4>
+                    <ul class="list-unstyled" >
+                      <p>Monday to friday : 8am - 10pm</p>
+                      <p>Saturday : 9am - 4pm</p>
+                      <p>Sunday : Close</p>
+                    </ul>
+                  </div>
+                  <div class="col-md-3" id="footlist">
+                    <h4 class="mb-4">Useful links</h4>
+                    <ul class="list-unstyled" >
+                      <li class="mb-4"><a href="#">Help Center</a></li>
+                      <li class="mb-4"><a href="#">About Us</a></li>
+                      <li class="mb-4"><a href="#">Services</a></li>
+                      <li class="mb-4"><a href="#">Testimonies</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <h4 class="mb-4">Dont be shy, say Hi</h4>
+                    <ul class="list-unstyled">
+                      <p><i class="bi bi-telephone-fill fs-4"></i> 0915-123-4567</p>
+                      <p><i class="bi bi-geo-alt-fill fs-4"></i> 143, PagHanapin st. kungSanMan</p>
+                      <p><i class="bi bi-clock-fill fs-4"></i> weekdays : Open | Sunday : close</p>
+                      <p><i class="bi bi-c-circle fs-4"></i> 2023 petMalu, All Rights Reserved</p>
+                    </ul>
+                    
+                  </div>
+                </div>
+                
+              
+      
+      
+            </div>
+        </section>
+      </footer>
+    <!-- bootstrap -->
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+crossorigin="anonymous"
+></script>
+</body>
+</html>
