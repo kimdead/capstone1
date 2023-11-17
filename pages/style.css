@@ -50,6 +50,19 @@ h5 {
   line-height: 36px;
 }
 
+ul li .sign {
+  background-color: #f07a05;
+  padding: 2px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+ul li .sign:hover {
+  color: #f07a05;
+  border: 2px solid #f07905;
+  background-color: #fff;
+}
+
 .btn-main {
   background-color: #f07905;
   color: #fff;
@@ -76,7 +89,7 @@ h5 {
 }
 
 .customers {
-  width: 300px;
+  width: 260px;
 }
 
 .customers img {
@@ -91,23 +104,23 @@ h5 {
 }
 .pic2 {
   position: absolute;
-  left: 6%;
+  left: 3%;
 }
 .pic3 {
   position: absolute;
-  left: 12%;
+  left: 6%;
 }
 .pic4 {
   position: absolute;
-  left: 18%;
+  left: 9%;
 }
 .pic5 {
   position: absolute;
-  left: 24%;
+  left: 12%;
 }
 .pic6 {
   position: absolute;
-  left: 32%;
+  left: 15%;
 }
 .happy {
   font-size: 22px;
@@ -120,6 +133,51 @@ h5 {
   margin-top: 20px;
   line-height: 10px;
 }
+
+.leftpic {
+  position: relative;
+  width: 500px;
+  height: 700px;
+}
+
+.leftpic .leftpicture {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: #333 solid 2px;
+}
+
+.leftside .leftpic #lpic1 {
+  position: absolute;
+  top: 12%;
+  left: 30%;
+}
+
+.leftside .leftpic #lpic2 {
+  position: absolute;
+  top: 8%;
+  left: 70%;
+}
+
+.leftside .leftpic #lpic3 {
+  position: absolute;
+  top: 33%;
+  left: 2%;
+}
+.leftside .leftpic #lpic5 {
+  position: absolute;
+  top: 62%;
+}
+
+.leftside .leftpic #lpic4 {
+  width: 360px;
+  height: 360px;
+  position: absolute;
+  top: 38%;
+  left: 40%;
+}
+
+/* //////////////////////////////////////////// */
 
 .service .card:hover {
   background-color: #f07905;
@@ -147,8 +205,7 @@ p {
 .img-fluid {
   width: 100px;
   align-self: center;
-  border: solid 1px #f07905;
-  border-radius: 50px;
+
   margin-top: 30px;
   margin-bottom: 10px;
   padding: 20px;
@@ -164,6 +221,17 @@ p {
 .testi {
   width: 100%;
   height: 300px;
+}
+
+.textCard {
+  position: relative;
+}
+
+.bi-quote {
+  position: absolute;
+  right: 5%;
+  top: 2%;
+  font-size: 80px;
 }
 
 .text-2 img {
@@ -213,6 +281,12 @@ p {
 .middleCard .btn {
   background-color: #fff;
   color: #f07905;
+}
+
+.middleCard .btn:hover {
+  color: #fff;
+  background-color: #a95705;
+  transition: ease-in-out 0.3s;
 }
 
 .middleCard .bi-check-circle-fill {

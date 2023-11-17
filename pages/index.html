@@ -47,8 +47,20 @@
               <li><a href="./index.html" class="nav-link">Home</a></li>
               <li><a href="./about.html" class="nav-link">About</a></li>
               <li><a href="./contact.html" class="nav-link">Contact Us</a></li>
-              <li><a href="./contact.html" class="nav-link">Services</a></li>
-              <li><a href="#contact" class="nav-link">Sign In</a></li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Pet Grooming</a></li>
+                  <li><a class="dropdown-item" href="#">Pet Boarding</a></li>
+                  <li><a class="dropdown-item" href="#">Pet Training</a></li>
+                  <li><a class="dropdown-item" href="#">Pet Sitting</a></li>
+                  <li><a class="dropdown-item" href="#">Pet Daycare</a></li>
+                  <li><a class="dropdown-item" href="#">Pet Walking</a></li>
+                </ul>
+              </li>
+              <li><a href="#contact" class="nav-link sign">Sign In</a></li>
             </ul>
           </div>
         </div>
@@ -80,11 +92,22 @@
             <img class="pic6" src="../assets/woman4.jpg" alt="" >
           </div>
         <div class="rate">
-          <p class="fw-semibold happy">Our Happy Customers</p>       
-          <i class="bi bi-star-fill fs-2"></i><span class="fw-semibold happy">4.8</span> <span>(15.5k reviews)</span>   
+          <p class="fw-semibold happy">Our Happy Customers</p>     <div class="star">
+          <i class="bi bi-star-fill fs-2"></i><span class="fw-semibold happy">4.8</span> <span>(15.5k reviews)</span>   </div> 
         </div>
       </div>
         </div>
+
+        <div class="leftside">
+        <div class="leftpic">
+          <img class="leftpicture" id="lpic1" src="../assets/dog1.jpg" alt="">
+          <img class="leftpicture" id="lpic2" src="../assets/dog2.jpg" alt="">
+          <img class="leftpicture" id="lpic3" src="../assets/cat.jpg" alt="">
+          <img class="leftpicture" id="lpic5" src="../assets/dog3.jpg" alt="">
+          <img class="leftpicture" id="lpic4" src="../assets/dog groomer.jpg" alt="">
+          
+        </div>
+      </div>
     </div>
 </header>
 </div>
@@ -212,7 +235,7 @@
   <div class="card col-md-6" style="max-height: 150px;">
     <div class="row g-0">
       <div class="col-md-3" >
-        <img src="../assets/sitting-dog.png" class="img-fluid m-4" alt="...">
+        <img src="../assets/daycare-center.png" class="img-fluid m-4" alt="...">
       </div>
       <div class="col-md-9">
         <div class="card-body">
@@ -226,7 +249,7 @@
   <div class="card col-md-6" style="max-height: 150px;">
     <div class="row g-0">
       <div class="col-md-3" >
-        <img src="../assets/sitting-dog.png" class="img-fluid m-4" alt="...">
+        <img src="../assets/pet-walking.png" class="img-fluid m-4" alt="...">
       </div>
       <div class="col-md-9">
         <div class="card-body">
@@ -356,10 +379,11 @@
             <img class="testi" src="../assets/testi1.jpg" class="testi rounded-start" alt="...">
           </div>
           <div class="col-md-6 align-self-center">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <div class="card-body testCard">
+              <h5 class="card-title">Michelle Libs</h5><i class="bi bi-quote"></i>
+              <i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i>
+              <p class="card-text">love all the products that they use and it’s not overpowering perfume smells like other places, I love how friendly everyone is and they did wonders on my dog and made her look so beautiful. We shall be coming back soon 🙂</p>
+              <p class="card-text"><small class="text-body-secondary">Posted 3 days ago</small></p>
             </div>
           </div>
         </div>
@@ -374,10 +398,11 @@
             <img class="testi" src="../assets/testi2.jpg" class="testi rounded-start" alt="...">
           </div>
           <div class="col-md-6 align-self-center">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <div class="card-body testCard">
+              <h5 class="card-title">Abigail Angeles</h5><i class="bi bi-quote"></i>
+              <i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i>
+              <p class="card-text">Amazing treatments and they are so lovely to the dogs! You can tell they really love the dogs and want them to feel comfortable and happy!</p>
+              <p class="card-text"><small class="text-body-secondary">Posted 3 months ago</small></p>
             </div>
           </div>
         </div>
@@ -391,10 +416,11 @@
             <img class="testi" src="../assets/testi3.jpg" class="testi rounded-start" alt="...">
           </div>
           <div class="col-md-6 align-self-center">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <div class="card-body testCard">
+              <h5 class="card-title">Kim Delos Reyes</h5><i class="bi bi-quote"></i>
+              <i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i>
+              <p class="card-text">A HUGE thank you for taking care of Rosie, she looks and smells absolutely gorgeous!! After her horrendous experience elsewhere you have given back her confidence and that means a lot to me, thank you once again 🙂</p>
+              <p class="card-text"><small class="text-body-secondary">posted 5 months ago</small></p>
             </div>
           </div>
         </div>
@@ -408,10 +434,11 @@
             <img  class="testi"src="../assets/testi4.jpg" class="testi rounded-start" alt="...">
           </div>
           <div class="col-md-6 align-self-center">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <div class="card-body testCard">
+              <h5 class="card-title">Eren Jaeger</h5><i class="bi bi-quote"></i>
+              <i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i><i class="bi bi-star-fill fs-5"></i>
+              <p class="card-text">We take both our dogs here and one is especially anxious but they have a great way of making them feel at ease and relaxed they are so kind and really take their time with the dogs – would highly recommend!!</p>
+              <p class="card-text"><small class="text-body-secondary">Posted 8 weeks  ago</small></p>
             </div>
           </div>
         </div>
